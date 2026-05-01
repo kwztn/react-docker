@@ -1,0 +1,43 @@
+body {
+  background-color: #0a0a0a;
+  color: #b8abed;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: #111;
+  padding: 30px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(79, 9, 199, 0.1);
+  width: 350px;
+}
+
+input {
+  background: #000;
+  border: 1px solid #333;
+  color: #a737d7;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+button {
+  background: #9965bc;
+  color: #000;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #222;
+  padding: 10px 0;
+}
